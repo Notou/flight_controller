@@ -1,0 +1,6 @@
+workspace_low_point: {X: -3, Y: -12, Z: -0.5}
+workspace_high_point: {X: 3, Y: 12, Z: 7.5}
+distance_to_emplacement: 1.5
+lower_destination_point: 0.5
+waiting_time: 3
+planner: BiTRRTkConfigDefault

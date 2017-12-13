@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+
+    <node name="flight_controller" pkg="flight_controller" type="flight_controller" output="screen">
+      <rosparam command="load" file="$(find flight_controller)/resource/flight_controller_params.yaml" />
+    </node>
+
+
+</launch>
